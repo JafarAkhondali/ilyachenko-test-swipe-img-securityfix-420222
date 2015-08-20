@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+<head>
+    <title>Swipe</title>
+    <script src="js/swipe.js"></script>
+</head>
+<style>
+    #swipe1, #fade1 {
+        width: 255px;
+        height: 153px;
+    }
+
+    .swipe {
+        overflow: hidden;
+        position: relative;
+    }
+
+    .swipe img {
+        position: absolute;
+    }
+
+    .swipe .visible {
+        visibility: visible;
+        opacity: 1;
+    }
+    .swipe .hidden {
+        visibility: hidden;
+        opacity: 0.5;
+    }
+</style>
+<body>
+<p>Please, use touch screen emulation for desktop.</p>
+<p>Source on <a href="#">github</a>.</p>
+<p>Swipe:</p>
+<div id="swipe1" class="swipe"></div>
+<p>Fade:</p>
+<div id="fade1" class="swipe"></div>
+</body>
+</html>
